@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.App{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    margin: 40px 0px;
+    width: 350px;
+    height:40px;
+  border: none;
+  outline:none;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 7px;
+  background: #393e46;
+  color: #4ecca3;
+
+}
+.btn{
+    height:40px;
+    border: none;
+    outline:none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 7px;
+    background: #393e46;
+    color: #4ecca3;
+    cursor:pointer;
+}
+
+.list{
+    width: 402px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 4px solid #393e46;
+}
+li{
+    margin: 1px 2px;
+    border: 2px solid  rgb(28, 15, 48);
+    height:30px;
+    display: flex;
+   justify-content: space-between;
+    line-height: 30px;
+    background-color: #4ecca3;
+
+}
+.deletetodo{
+    height:30px;
+    border: none;
+    outline:none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 7px;
+    background-color: red;
+    color:#232931;
+    cursor:pointer;
+    
+}
